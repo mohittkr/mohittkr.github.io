@@ -3,3 +3,12 @@ body{
     background: light grey;
     text-align: center
 }
+
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+    display: block;
+    
+}

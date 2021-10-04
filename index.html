@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src = "script.js" defer></script>
 </head>
 <body>
     <h1>Mohit Tekriwal</h1> 
@@ -33,9 +34,23 @@
     </p>
 
     <ul>
-        <li>Research experience</li>
-        <li>Teaching experience</li>
-        <li> Publications</li>
+        <li data-tab-target = "#Research experience">Research experience</li>
+        <li data-tab-target = "#Teaching experience">Teaching experience</li>
+        <li data-tab-target = "#Publications"> Publications</li>
     </ul>
+
+    <div class = "tab content">
+        <div id = "Research experience" data-tab-content>
+            <h1> Research experience</h1>
+        </div>
+
+        <div id = "Teaching experience" data-tab-content>
+            <h1> Teaching experience</h1>
+        </div>
+
+        <div id = "Publications" data-tab-content>
+            <h1> Publications</h1>
+        </div>
+    </div>
 </body>
 </html>
