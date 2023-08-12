@@ -1,7 +1,15 @@
 body{
-    margin-right: 50px;
+    margin: 0;
     background: light grey;
     text-align: justify
+}
+
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
 /* Style the tab */
