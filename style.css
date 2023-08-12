@@ -4,11 +4,6 @@ body{
     text-align: justify
 }
 
-
-p {
-  margin-right: 150px;
-}
-
 /* Style the tab */
 .tab {
     overflow: hidden;
