@@ -1,6 +1,5 @@
 body{
-    margin-right: 150px;
-    margin-left: 150px;
+    margin: 0;
     background: light grey;
     text-align: justify
 }
