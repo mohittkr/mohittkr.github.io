@@ -4,6 +4,13 @@ body{
     text-align: justify
 }
 
+div {
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
